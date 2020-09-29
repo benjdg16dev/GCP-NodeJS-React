@@ -19,7 +19,8 @@
     "eject": "react-scripts eject",
     "client": "npm run start",
     "server": "node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "deploy": "gcloud app deploy"
   },
   "proxy": "http://localhost:4041",
   "eslintConfig": {
